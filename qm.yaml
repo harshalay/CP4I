@@ -1,0 +1,64 @@
+apiVersion: mq.ibm.com/v1beta1
+kind: QueueManager
+metadata:
+  name: single-inst-ini-persisted
+spec:
+  license:
+    accept: true
+    license: L-RJON-CJR2RX
+    metric: VirtualProcessorCore
+    use: NonProduction
+  pki:
+    keys:
+      - name: default
+        secret:
+          items:
+            - tls.key
+            - tls.crt
+          secretName: mq-tls-secret
+  securityContext:
+    initVolumeAsRoot: false
+    supplementalGroups:
+      - 99
+  web:
+    enabled: true
+  version: 9.3.1.1-r1
+  queueManager:
+    metrics:
+      enabled: true
+    ini:
+      - configMap:
+          items:
+            - qm.ini
+          name: mq-mqsc-mq1
+    route:
+      enabled: true
+    name: QUICKSTART
+    mqsc:
+      - configMap:
+          items:
+            - tls.mqsc
+          name: single-inst-ini-cm
+    availability:
+      type: SingleInstance
+      updateStrategy: RollingUpdate
+    storage:
+      defaultClass: ibmc-file-gold-gid
+      defaultDeleteClaim: true
+      persistedData:
+        class: ibmc-file-gold-gid
+        deleteClaim: true
+        enabled: true
+        size: 2Gi
+        type: persistent-claim
+      queueManager:
+        class: ibmc-file-gold-gid
+        deleteClaim: true
+        size: 2Gi
+        type: persistent-claim
+      recoveryLogs:
+        class: ibmc-file-gold-gid
+        deleteClaim: true
+        enabled: true
+        size: 2Gi
+        type: persistent-claim
