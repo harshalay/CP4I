@@ -38,7 +38,7 @@ spec:
       - configMap:
           items:
             - tls.mqsc
-          name: single-inst-ini-cm
+          name: mq-mqsc-mq1
     availability:
       type: SingleInstance
       updateStrategy: RollingUpdate
