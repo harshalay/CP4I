@@ -1,1 +1,42 @@
-
+apiVersion: mq.ibm.com/v1beta1
+kind: QueueManager
+metadata:
+  name: nativeha-qm1
+  namespace: cp4i
+spec:
+  license:
+    accept: true
+    license: L-RJON-CJR2RX
+    use: NonProduction
+  pki:
+    keys:
+      - name: default
+        secret:
+          secretName: mq-tls
+          items:
+          - tls.key
+          - tls.crt
+  web:
+    enabled: true
+  version: 9.3.1.1-r1
+  template:
+    pod:
+      containers:
+        - env:
+            - name: MQSNOAUT
+              value: 'yes'
+          name: qmgr
+  queueManager:
+    name: QM1
+    mqsc:
+      - configMap:
+          items:
+            - mqsc
+          name: mq-mqsc-qm1
+    availability:
+      tls:
+        secretName: mq-tls
+      type: NativeHA
+    storage:
+      queueManager:
+        type: persistent-claim
