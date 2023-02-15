@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: nativeha-qm1-ibm-mq-traffic
+  namespace: cp4i
+spec:
+  host: external2e-svrconn.chl.mq.ibm.com
+  to:
+    kind: Service
+    name: nativeha-qm1-ibm-mq
+  port:
+    targetPort: 1414
+  tls:
+    termination: passthrough
