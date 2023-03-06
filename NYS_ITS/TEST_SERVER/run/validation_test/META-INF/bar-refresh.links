@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1678117156000" workspaceResource="/validation_test/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file validation_test/application.descriptor.&#xA;Successfully added file validation_test/application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file validation_test/application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1678117606000" workspaceResource="/validation_test/test.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file validation_test/test.msgflow.&#xA;Successfully added file validation_test/test.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="test.msgflow"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

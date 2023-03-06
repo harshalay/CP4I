@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/GeneratedBarFiles/validationproject.generated.bar" deployTimestamp="2023-03-06 15:17:52">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="form_validation" deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/GeneratedBarFiles/validationproject.generated.bar" deployTimestamp="2023-03-06 15:17:52">
+    <ConfigurableProperty uri="form_validation#XML Output.customDelimiter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.fileFtp">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.fileFtpDirectory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.fileFtpServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.fileFtpUser">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.outputDirectory" override="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/File_Output">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.outputFilename" override="output.xml">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.recordDelimiter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.remoteTransferType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.requestDirectoryLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.requestNameLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML Output.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.customDelimiter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.excludePattern">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.fileFtp">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.fileFtpDirectory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.fileFtpServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.fileFtpUser">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.filenamePattern" override="input.xml">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.inputDirectory" override="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/File_Input">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.longRetryInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.messageCodedCharSetIdProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.messageEncodingProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.recursiveDirectories">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.remoteTransferType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.retryThreshold">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.shortRetryInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#XML input.waitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="form_validation#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

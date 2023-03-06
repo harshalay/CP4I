@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/GeneratedBarFiles/validation_testproject.generated.bar" deployTimestamp="2023-03-06 15:46:56">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="test" deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/GeneratedBarFiles/validation_testproject.generated.bar" deployTimestamp="2023-03-06 15:46:56">
+    <ConfigurableProperty uri="test#HTTP Input.URLSpecifier" override="/post">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>
