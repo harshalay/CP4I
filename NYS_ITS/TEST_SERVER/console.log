@@ -1,20 +1,3 @@
-2023-03-06 10:16:31.833122: BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.7.0' (64-bit) 
+2023-03-06 14:14:49.621804: BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.7.0' (64-bit) 
 ImbMain::start() - failed to acquire execution group lock - duplicate execution group processes?
-2023-03-06 10:16:31.833632: BIP2112E: IBM App Connect Enterprise internal error: diagnostic information 'Failed to acquire execution group lock - duplicate execution group processes?', 'ImbFile::WriteLock::WriteLock() reported 'Failed to acquire write lock on file' with values... ''Failed to acquire write lock on file'' ''/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/TEST_SERVER/config/components/integr2023-03-06 10:17:52.700612: BIP2152I: Configuration message received. 
-2023-03-06 10:17:52.721800: BIP2155I: About to 'Initialize' the deployed resource 'validation' of type 'Application'. 
-2023-03-06 10:17:53.146640: BIP2155I: About to 'Start' the deployed resource 'validation' of type 'Application'. 
-2023-03-06 10:17:53.147140: BIP2269I: Deployed resource 'form_validation' (uuid='form_validation',type='MessageFlow') started successfully. 
-2023-03-06 10:17:53.147216: BIP9332I: Application 'validation' has been created successfully. 
-2023-03-06 10:17:53.147276: BIP9326I: The source 'validationproject.generated.bar' has been successfully deployed. 
-2023-03-06 10:17:53.147740: BIP2154I: Integration server finished with Configuration message. 
-2023-03-06 10:46:56.345712: BIP2152I: Configuration message received. 
-2023-03-06 10:46:56.360864: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
-2023-03-06 10:46:56.440588: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
-An http endpoint was registered on port '7800', path '/post'.
-2023-03-06 10:46:56.495144: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
-2023-03-06 10:46:56.495232: BIP1996I: Listening on HTTP URL '/post'. 
-Started native listener for HTTP input node on port 7800 for URL /post
-2023-03-06 10:46:56.495352: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
-2023-03-06 10:46:56.495424: BIP9332I: Application 'validation_test' has been created successfully. 
-2023-03-06 10:46:56.495476: BIP9326I: The source 'validation_testproject.generated.bar' has been successfully deployed. 
-2023-03-06 10:46:56.495984: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:14:49.622160: BIP2112E: IBM App Connect Enterprise internal error: diagnostic information 'Failed to acquire execution group lock - duplicate execution group processes?', 'ImbFile::WriteLock::WriteLock() reported 'Failed to acquire write lock on file' with values... ''Failed to acquire write lock on file'' ''/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/TEST_SERVER/config/components/integrDebugger failed to attach: handshake failed - connection prematurally closed

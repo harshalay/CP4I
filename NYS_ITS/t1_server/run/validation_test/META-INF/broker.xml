@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/TestModeBarFiles/validation_testproject.TestMode.bar" deployTimestamp="2023-03-06 20:25:57">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="test" deployBarfile="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/TestModeBarFiles/validation_testproject.TestMode.bar" deployTimestamp="2023-03-06 20:25:57">
+    <ConfigurableProperty uri="test#Computation.acceptCompressedResponses" override="true">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.baseURL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.enableKeepAlive">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#Computation.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.URLSpecifier" override="/validate">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.acceptCompressedResponses" override="true">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.baseURL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.enableKeepAlive">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#TI.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.acceptCompressedResponses" override="true">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.baseURL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.enableKeepAlive">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#composition.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="test#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>
