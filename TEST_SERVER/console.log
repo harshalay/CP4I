@@ -1,0 +1,3 @@
+2023-03-06 14:14:49.621804: BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.7.0' (64-bit) 
+ImbMain::start() - failed to acquire execution group lock - duplicate execution group processes?
+2023-03-06 14:14:49.622160: BIP2112E: IBM App Connect Enterprise internal error: diagnostic information 'Failed to acquire execution group lock - duplicate execution group processes?', 'ImbFile::WriteLock::WriteLock() reported 'Failed to acquire write lock on file' with values... ''Failed to acquire write lock on file'' ''/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/TEST_SERVER/config/components/integrDebugger failed to attach: handshake failed - connection prematurally closed

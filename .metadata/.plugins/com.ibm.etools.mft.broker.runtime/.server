@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationServerConnectionParameters Version="11.0.0" serverIpcSocket="/tmp/a92cc0cb-ff13-4854-8c51-1544820f9afd.uds" serverName="t1_server" serverWorkDir="/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/t1_server" xmlns="http://www.ibm.com/xmlns/prod/ace/11"/>

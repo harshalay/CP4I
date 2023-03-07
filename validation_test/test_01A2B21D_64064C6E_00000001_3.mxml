@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageAssembly iib:parser="GENERICROOT" xmlns:iib="http://com.ibm.iib/lt/1.0">
+   <version xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</version>
+   <checkpoint>
+      <messageId xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">01A2B21D-64064C6E-00000001</messageId>
+      <propagationCount xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">3</propagationCount>
+      <nodeCallDepth xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">4</nodeCallDepth>
+      <timestamp xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="TIMESTAMP">2023-03-06 20:26:22.907613</timestamp>
+      <source>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Computation</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">test#FCMComposite_1_8</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmRESTRequestNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">out</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">validation_test</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">test</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Computation</node>
+         </nodePath>
+         <inputNode xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="BOOLEAN">FALSE</inputNode>
+      </source>
+      <target>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">HTTP Reply</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">test#FCMComposite_1_3</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmWSReplyNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">in</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">validation_test</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">test</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">HTTP Reply</node>
+         </nodePath>
+      </target>
+   </checkpoint>
+   <environment/>
+   <localEnvironment xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <Destination>
+         <HTTP>
+            <RequestIdentifier iib:valueType="BLOB">4556485400000000000000003b919ab815b2a20100000000</RequestIdentifier>
+         </HTTP>
+      </Destination>
+      <WrittenDestination>
+         <REST>
+            <Method iib:valueType="CHARACTER">POST</Method>
+            <URL iib:valueType="CHARACTER">http://ti-validation-service-nystate.itzroks-66200279vi-ykqqj1-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud/validate</URL>
+            <RequestHeadersSize iib:valueType="INTEGER">123</RequestHeadersSize>
+            <RequestBodySize iib:valueType="INTEGER">1392</RequestBodySize>
+            <StatusCode iib:valueType="INTEGER">200</StatusCode>
+            <ResponseHeadersSize iib:valueType="INTEGER">307</ResponseHeadersSize>
+            <ResponseBodySize iib:valueType="INTEGER">1278</ResponseBodySize>
+            <TotalRequestTime iib:valueType="INTEGER">384</TotalRequestTime>
+            <Method iib:valueType="CHARACTER">POST</Method>
+            <URL iib:valueType="CHARACTER">http://composition-validation-service-nystate.itzroks-66200279vi-ykqqj1-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud/validate</URL>
+            <RequestHeadersSize iib:valueType="INTEGER">123</RequestHeadersSize>
+            <RequestBodySize iib:valueType="INTEGER">1278</RequestBodySize>
+            <StatusCode iib:valueType="INTEGER">200</StatusCode>
+            <ResponseHeadersSize iib:valueType="INTEGER">307</ResponseHeadersSize>
+            <ResponseBodySize iib:valueType="INTEGER">1298</ResponseBodySize>
+            <TotalRequestTime iib:valueType="INTEGER">224</TotalRequestTime>
+            <Method iib:valueType="CHARACTER">POST</Method>
+            <URL iib:valueType="CHARACTER">http://computation-validation-service-nystate.itzroks-66200279vi-ykqqj1-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud/validate</URL>
+            <RequestHeadersSize iib:valueType="INTEGER">123</RequestHeadersSize>
+            <RequestBodySize iib:valueType="INTEGER">1298</RequestBodySize>
+            <StatusCode iib:valueType="INTEGER">200</StatusCode>
+            <ResponseHeadersSize iib:valueType="INTEGER">307</ResponseHeadersSize>
+            <ResponseBodySize iib:valueType="INTEGER">1433</ResponseBodySize>
+            <TotalRequestTime iib:valueType="INTEGER">66</TotalRequestTime>
+         </REST>
+      </WrittenDestination>
+   </localEnvironment>
+   <exceptionList/>
+   <message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="WSRoot">
+      <Properties iib:parser="WSPROPERTYPARSER">
+         <MessageSet iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageFormat iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <Encoding iib:valueType="INTEGER">546</Encoding>
+         <CodedCharSetId iib:valueType="INTEGER">1208</CodedCharSetId>
+         <Transactional iib:valueType="BOOLEAN">FALSE</Transactional>
+         <Persistence iib:valueType="BOOLEAN">FALSE</Persistence>
+         <CreationTime iib:valueType="GMTTIMESTAMP">2023-03-06 20:26:23.890582</CreationTime>
+         <ExpirationTime iib:valueType="INTEGER">-1</ExpirationTime>
+         <Priority iib:valueType="INTEGER">0</Priority>
+         <ReplyIdentifier iib:valueType="BLOB"/>
+         <ReplyProtocol iib:valueType="CHARACTER">SOAP-HTTP</ReplyProtocol>
+         <Topic iib:elementType="0x03000000"/>
+         <ContentType iib:valueType="CHARACTER">application/xml;charset=UTF-8</ContentType>
+         <IdentitySourceType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourcePassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedPassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+      </Properties>
+      <HTTPResponseHeader iib:parser="WSRSPHDR">
+         <X-Original-HTTP-Status-Line iib:valueType="CHARACTER">HTTP/1.1 200</X-Original-HTTP-Status-Line>
+         <X-Original-HTTP-Status-Code iib:valueType="INTEGER">200</X-Original-HTTP-Status-Code>
+         <vary iib:valueType="CHARACTER">Origin, Access-Control-Request-Method, Access-Control-Request-Headers</vary>
+         <content-type iib:valueType="CHARACTER">application/xml;charset=UTF-8</content-type>
+         <content-length iib:valueType="CHARACTER">1433</content-length>
+         <date iib:valueType="CHARACTER">Mon, 06 Mar 2023 20:26:24 GMT</date>
+         <set-cookie iib:valueType="CHARACTER">17f0ef7244f7a9dd9c053a7ca1f92098=1e16e685fa72d9b8c6f3621c75628d79; path=/; HttpOnly</set-cookie>
+      </HTTPResponseHeader>
+      <XMLNSC iib:parser="xmlnsc">
+         <XmlDeclaration iib:elementType="0x01000400">
+            <Version iib:elementType="0x03000100" iib:valueType="CHARACTER">1.0</Version>
+            <Encoding iib:elementType="0x03000100" iib:valueType="CHARACTER">UTF-8</Encoding>
+         </XmlDeclaration>
+         <input>
+            <taxpayerInfo>
+               <sourceCd iib:valueType="CHARACTER">Paper</sourceCd>
+               <formId iib:valueType="CHARACTER">706</formId>
+               <tpId iib:valueType="CHARACTER">111334455</tpId>
+               <tpFullName iib:valueType="CHARACTER">John Doe</tpFullName>
+               <taxType iib:valueType="CHARACTER">ET</taxType>
+               <processYear iib:valueType="CHARACTER">2023</processYear>
+               <exeIdNmbr iib:valueType="CHARACTER">222335566</exeIdNmbr>
+               <exeFullName iib:valueType="CHARACTER">Sam P Glass</exeFullName>
+               <exeLn1Adr iib:valueType="CHARACTER">1234 patric Road</exeLn1Adr>
+               <exeLn2Adr/>
+               <exeCityAdr iib:valueType="CHARACTER">Albany</exeCityAdr>
+               <exeStAdr iib:valueType="CHARACTER">NY</exeStAdr>
+               <exeZipAdr iib:valueType="CHARACTER">12011</exeZipAdr>
+               <exeCntryCd iib:valueType="CHARACTER">US</exeCntryCd>
+            </taxpayerInfo>
+            <return>
+               <ET706>
+                  <documentId iib:valueType="CHARACTER">ETPF0008</documentId>
+                  <receiveDt iib:valueType="CHARACTER">2023-02-01</receiveDt>
+                  <rtnDueDt iib:valueType="CHARACTER">2022-02-01</rtnDueDt>
+                  <deathCertInd iib:valueType="CHARACTER">Y</deathCertInd>
+                  <leinInd iib:valueType="CHARACTER">Y</leinInd>
+                  <fedRtnInd iib:valueType="CHARACTER">Y</fedRtnInd>
+                  <pnltIntAmt iib:valueType="CHARACTER">8507.004</pnltIntAmt>
+                  <balDueAmt iib:valueType="CHARACTER">-240892.59600000002</balDueAmt>
+                  <deceasedDt iib:valueType="CHARACTER">2022-01-01</deceasedDt>
+                  <fedTxbleEstateAmt iib:valueType="CHARACTER">8482037.53</fedTxbleEstateAmt>
+                  <nyTxbleEstateAmt iib:valueType="CHARACTER">8300000.00</nyTxbleEstateAmt>
+                  <nysTaxDueAmt iib:valueType="CHARACTER">850600.40</nysTaxDueAmt>
+                  <advPayment iib:valueType="CHARACTER">1000000.0</advPayment>
+                  <paymentAmt iib:valueType="CHARACTER">100000</paymentAmt>
+                  <totalPaymentAmt iib:valueType="CHARACTER">1100000.0</totalPaymentAmt>
+                  <status iib:valueType="CHARACTER">processed-Overpaid</status>
+               </ET706>
+            </return>
+         </input>
+      </XMLNSC>
+   </message>
+</MessageAssembly>

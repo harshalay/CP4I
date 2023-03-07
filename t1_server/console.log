@@ -1,0 +1,258 @@
+2023-03-06 14:15:34.463464: BIP1990I: Integration server 't1_server' starting initialization; version '12.0.7.0' (64-bit) 
+ImbMain::start() - failed to acquire execution group lock - duplicate execution group processes?
+2023-03-06 14:15:34.463956: BIP2112E: IBM App Connect Enterprise internal error: diagnostic information 'Failed to acquire execution group lock - duplicate execution group processes?', 'ImbFile::WriteLock::WriteLock() reported 'Failed to acquire write lock on file' with values... ''Failed to acquire write lock on file'' ''/Users/harshalayadav/IBM/ACET12/workspace/NYS_ITS/t1_server/config/components/integrat2023-03-06 14:16:36.152420: BIP2152I: Configuration message received. 
+2023-03-06 14:16:36.170308: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:16:37.663592: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/post'.
+2023-03-06 14:16:37.709916: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:16:37.710104: BIP1996I: Listening on HTTP URL '/post'. 
+Started native listener for HTTP input node on port 7800 for URL /post
+2023-03-06 14:16:37.710252: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:16:37.710352: BIP9332I: Application 'validation_test' has been created successfully. 
+2023-03-06 14:16:37.710456: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:16:37.711148: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:17:53.394092: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:17:53.394164: BIP2230E: Error detected whilst processing a message in node 'test.validate'. 
+2023-03-06 14:17:53.394204: BIP6375E: REST request node 'test.validate' failed to invoke the operation 'validate'. 
+2023-03-06 14:17:53.394252: BIP6373E: REST request node 'test.validate' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '66' ms. 
+2023-03-06 14:27:19.684982: BIP2152I: Configuration message received. 
+2023-03-06 14:27:19.695110: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:27:19.832260: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:27:19.832370: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:27:19.838886: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:27:19.903050: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:27:19.980112: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:27:20.026330: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:27:20.026404: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:27:20.026544: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:27:20.026618: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:27:20.026690: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:27:20.027154: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:27:35.508512: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:27:35.508952: BIP2230E: Error detected whilst processing a message in node 'test.validate'. 
+2023-03-06 14:27:35.509024: BIP6375E: REST request node 'test.validate' failed to invoke the operation 'validate'. 
+2023-03-06 14:27:35.509100: BIP6373E: REST request node 'test.validate' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '62' ms. 
+2023-03-06 14:31:59.320076: BIP2152I: Configuration message received. 
+2023-03-06 14:31:59.330940: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:32:01.714732: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:32:01.714815: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:32:01.726412: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:32:01.763893: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:32:01.813112: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:32:01.857670: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:32:01.857749: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:32:01.857875: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:32:01.857930: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:32:01.857979: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:32:01.858340: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:36:29.776928: BIP2152I: Configuration message received. 
+2023-03-06 14:36:29.788570: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:36:34.753520: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:36:34.753620: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:36:34.771452: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:36:34.801432: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:36:34.855136: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:36:34.917180: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:36:34.917256: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:36:34.917396: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:36:34.917588: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:36:34.917648: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:36:34.918068: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:36:51.065420: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:36:51.066096: BIP2230E: Error detected whilst processing a message in node 'test.HTTP Reply'. 
+2023-03-06 14:36:51.066184: BIP3742E: An attempt was made to use a EVHT message ReplyIdentifier after it had already been used. 
+2023-03-06 14:38:12.949260: BIP2152I: Configuration message received. 
+2023-03-06 14:38:12.961617: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:38:17.127058: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:38:17.127206: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:38:17.147026: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:38:17.185726: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:38:17.241398: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:38:17.286644: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:38:17.286712: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:38:17.286842: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:38:17.286904: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:38:17.286960: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:38:17.287382: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:38:31.456528: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:38:31.456942: BIP2230E: Error detected whilst processing a message in node 'test.Computation'. 
+2023-03-06 14:38:31.456980: BIP6375E: REST request node 'test.Computation' failed to invoke the operation 'validate'. 
+2023-03-06 14:38:31.457016: BIP6373E: REST request node 'test.Computation' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '280' ms. 
+2023-03-06 14:43:15.967378: BIP2152I: Configuration message received. 
+2023-03-06 14:43:15.982019: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:43:17.653808: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:43:17.653906: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:43:17.670676: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:43:17.696830: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:43:17.754918: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:43:17.801098: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:43:17.801166: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:43:17.801298: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:43:17.801358: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:43:17.801408: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:43:17.801854: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:43:46.296756: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:43:46.296844: BIP2230E: Error detected whilst processing a message in node 'test.Computation'. 
+2023-03-06 14:43:46.296900: BIP6375E: REST request node 'test.Computation' failed to invoke the operation 'validate'. 
+2023-03-06 14:43:46.296948: BIP6373E: REST request node 'test.Computation' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '251' ms. 
+2023-03-06 14:50:38.768396: BIP2152I: Configuration message received. 
+2023-03-06 14:50:38.783588: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:50:42.638272: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:50:42.638380: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:50:42.640520: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:50:42.671768: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:50:42.718296: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:50:42.764320: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:50:42.764392: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:50:42.764548: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:50:42.764624: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:50:42.764688: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:50:42.765384: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:51:07.376920: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:51:07.377021: BIP2230E: Error detected whilst processing a message in node 'test.Computation'. 
+2023-03-06 14:51:07.377065: BIP6375E: REST request node 'test.Computation' failed to invoke the operation 'validate'. 
+2023-03-06 14:51:07.377108: BIP6373E: REST request node 'test.Computation' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '233' ms. 
+2023-03-06 14:54:31.920420: BIP2152I: Configuration message received. 
+2023-03-06 14:54:31.932342: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:54:33.600692: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:54:33.600796: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:54:33.602596: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:54:33.637752: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:54:33.694144: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:54:33.737976: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:54:33.738048: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:54:33.738188: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:54:33.738264: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:54:33.738320: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:54:33.738848: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:54:49.805108: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:54:49.805200: BIP2230E: Error detected whilst processing a message in node 'test.composition'. 
+2023-03-06 14:54:49.805264: BIP6375E: REST request node 'test.composition' failed to invoke the operation 'validate'. 
+2023-03-06 14:54:49.805324: BIP6373E: REST request node 'test.composition' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '233' ms. 
+2023-03-06 14:56:18.052774: BIP2152I: Configuration message received. 
+2023-03-06 14:56:18.064296: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:56:20.882756: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:56:20.882852: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:56:20.886698: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:56:20.914150: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:56:20.970660: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:56:21.014700: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:56:21.014770: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:56:21.014914: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:56:21.015018: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:56:21.015100: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:56:21.015634: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:56:34.149752: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:56:34.149936: BIP2230E: Error detected whilst processing a message in node 'test.composition'. 
+2023-03-06 14:56:34.149988: BIP6375E: REST request node 'test.composition' failed to invoke the operation 'validate'. 
+2023-03-06 14:56:34.150084: BIP6373E: REST request node 'test.composition' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '233' ms. 
+2023-03-06 14:58:26.018842: BIP2152I: Configuration message received. 
+2023-03-06 14:58:26.029860: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:58:30.244886: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 14:58:30.245010: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:58:30.257254: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 14:58:30.286654: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 14:58:30.335346: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 14:58:30.381342: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 14:58:30.381410: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 14:58:30.381586: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 14:58:30.381656: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 14:58:30.381728: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 14:58:30.382328: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 14:59:36.689844: BIP3120E: Exception condition detected on input node 'test.HTTP Input'. 
+2023-03-06 14:59:36.691048: BIP2230E: Error detected whilst processing a message in node 'test.composition'. 
+2023-03-06 14:59:36.691112: BIP6375E: REST request node 'test.composition' failed to invoke the operation 'validate'. 
+2023-03-06 14:59:36.691164: BIP6373E: REST request node 'test.composition' invoked the operation 'validate'. The operation was unsuccessful. HTTP status code: '500', response headers: '300' bytes, response body: '109' bytes, total request time: '247' ms. 
+2023-03-06 15:02:25.040440: BIP2152I: Configuration message received. 
+2023-03-06 15:02:25.052278: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:02:26.471568: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 15:02:26.471662: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:02:26.484246: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 15:02:26.512054: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:02:26.559378: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 15:02:26.605430: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 15:02:26.605512: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 15:02:26.605672: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 15:02:26.605742: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 15:02:26.605810: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 15:02:26.606338: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 15:08:25.517356: BIP2152I: Configuration message received. 
+2023-03-06 15:08:25.531598: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:08:25.978802: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 15:08:25.978890: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:08:25.995834: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 15:08:26.021112: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:08:26.068110: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 15:08:26.113780: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 15:08:26.113858: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 15:08:26.114018: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 15:08:26.114082: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 15:08:26.114142: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 15:08:26.114688: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 15:15:20.052722: BIP2152I: Configuration message received. 
+2023-03-06 15:15:20.064818: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:15:24.005854: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 15:15:24.005950: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:15:24.009598: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 15:15:24.037688: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:15:24.084166: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 15:15:24.132178: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 15:15:24.132248: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 15:15:24.132390: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 15:15:24.132462: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 15:15:24.132514: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 15:15:24.133008: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 15:21:31.027280: BIP2152I: Configuration message received. 
+2023-03-06 15:21:31.041952: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:21:31.662592: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 15:21:31.662688: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:21:31.666802: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 15:21:31.699390: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:21:31.746562: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 15:21:31.791138: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 15:21:31.791206: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 15:21:31.791342: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 15:21:31.791404: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 15:21:31.791462: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 15:21:31.792072: BIP2154I: Integration server finished with Configuration message. 
+2023-03-06 15:25:57.654240: BIP2152I: Configuration message received. 
+2023-03-06 15:25:57.667312: BIP2155I: About to 'Stop' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:26:02.222122: BIP2271I: Deployed resource 'test' (uuid='test',type='MessageFlow') successfully stopped. 
+2023-03-06 15:26:02.222230: BIP2155I: About to 'TearDown' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:26:02.245164: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2023-03-06 15:26:02.275675: BIP2155I: About to 'Initialize' the deployed resource 'validation_test' of type 'Application'. 
+2023-03-06 15:26:02.322705: BIP2155I: About to 'Start' the deployed resource 'validation_test' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/validate'.
+2023-03-06 15:26:02.370570: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2023-03-06 15:26:02.370639: BIP1996I: Listening on HTTP URL '/validate'. 
+Started native listener for HTTP input node on port 7800 for URL /validate
+2023-03-06 15:26:02.370787: BIP2269I: Deployed resource 'test' (uuid='test',type='MessageFlow') started successfully. 
+2023-03-06 15:26:02.370850: BIP9332I: Application 'validation_test' has been changed successfully. 
+2023-03-06 15:26:02.370932: BIP9326I: The source 'validation_testproject.TestMode.bar' has been successfully deployed. 
+2023-03-06 15:26:02.371460: BIP2154I: Integration server finished with Configuration message. 
